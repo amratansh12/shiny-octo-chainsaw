@@ -15,6 +15,7 @@ import {
   FormMessage,
 } from "./ui/form";
 import { Button } from "./ui/button";
+import { Link } from "react-router";
 
 const formSchema = z.object({
   email: z.string().email(),
@@ -33,8 +34,6 @@ export const Signup = () => {
   });
 
   const onSubmit = (values: z.infer<typeof formSchema>) => {
-    // Do something with the form values.
-    // ✅ This will be type-safe and validated.
     console.log(values);
   };
 
@@ -42,7 +41,7 @@ export const Signup = () => {
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className="max-w-2xl mx-4  md:mx-auto mt-12 space-y-8"
+        className="max-w-2xl mx-4 sm:mx-auto mt-12 space-y-8"
       >
         <h1 className="text-2xl font-medium mb-8">Signup Form</h1>
 
@@ -102,7 +101,15 @@ export const Signup = () => {
           )}
         />
 
-        <Button className="w-full">Signup</Button>
+        <div>
+          <Button className="w-full">Signup</Button>
+          <p className="mt-2">
+            Already have an account?{" "}
+            <Link to="/login" className="text-rose-400">
+              Login
+            </Link>
+          </p>
+        </div>
       </form>
     </Form>
   );
