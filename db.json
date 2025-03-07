@@ -1,0 +1,286 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Hotel Sunshine",
+      "location": "Goa",
+      "pricePerNight": 2500
+    },
+    {
+      "id": 2,
+      "name": "Beachside Resort",
+      "location": "Goa",
+      "pricePerNight": 3000
+    },
+    {
+      "id": 3,
+      "name": "Coastal Retreat",
+      "location": "Goa",
+      "pricePerNight": 2800
+    },
+    {
+      "id": 4,
+      "name": "Palm Breeze",
+      "location": "Goa",
+      "pricePerNight": 3200
+    },
+    {
+      "id": 5,
+      "name": "Sandy Shores Hotel",
+      "location": "Goa",
+      "pricePerNight": 2700
+    },
+    {
+      "id": 6,
+      "name": "Downtown Suites",
+      "location": "Mumbai",
+      "pricePerNight": 3500
+    },
+    {
+      "id": 7,
+      "name": "City Center Inn",
+      "location": "Mumbai",
+      "pricePerNight": 3400
+    },
+    {
+      "id": 8,
+      "name": "Seaview Residency",
+      "location": "Mumbai",
+      "pricePerNight": 3600
+    },
+    {
+      "id": 9,
+      "name": "Luxury Haven",
+      "location": "Mumbai",
+      "pricePerNight": 3700
+    },
+    {
+      "id": 10,
+      "name": "Metropolitan Grand",
+      "location": "Mumbai",
+      "pricePerNight": 3800
+    },
+    {
+      "id": 11,
+      "name": "Mountain View Hotel",
+      "location": "Manali",
+      "pricePerNight": 2800
+    },
+    {
+      "id": 12,
+      "name": "Snowpeak Hotel",
+      "location": "Manali",
+      "pricePerNight": 3100
+    },
+    {
+      "id": 13,
+      "name": "Summit Retreat",
+      "location": "Manali",
+      "pricePerNight": 3300
+    },
+    {
+      "id": 14,
+      "name": "Hilltop Lodge",
+      "location": "Manali",
+      "pricePerNight": 3200
+    },
+    {
+      "id": 15,
+      "name": "Evergreen Inn",
+      "location": "Manali",
+      "pricePerNight": 2900
+    },
+    {
+      "id": 16,
+      "name": "Heritage Stay",
+      "location": "Jaipur",
+      "pricePerNight": 4000
+    },
+    {
+      "id": 17,
+      "name": "Royal Palace",
+      "location": "Jaipur",
+      "pricePerNight": 3900
+    },
+    {
+      "id": 18,
+      "name": "Pink City Residency",
+      "location": "Jaipur",
+      "pricePerNight": 4100
+    },
+    {
+      "id": 19,
+      "name": "Rajputana Resort",
+      "location": "Jaipur",
+      "pricePerNight": 4200
+    },
+    {
+      "id": 20,
+      "name": "Amber Fort Suites",
+      "location": "Jaipur",
+      "pricePerNight": 4300
+    },
+    {
+      "id": 21,
+      "name": "Tranquil Towers",
+      "location": "Bangalore",
+      "pricePerNight": 3200
+    },
+    {
+      "id": 22,
+      "name": "Tech Park Residency",
+      "location": "Bangalore",
+      "pricePerNight": 3400
+    },
+    {
+      "id": 23,
+      "name": "Silicon Valley Hotel",
+      "location": "Bangalore",
+      "pricePerNight": 3300
+    },
+    {
+      "id": 24,
+      "name": "Cityscape Inn",
+      "location": "Bangalore",
+      "pricePerNight": 3500
+    },
+    {
+      "id": 25,
+      "name": "Garden City Suites",
+      "location": "Bangalore",
+      "pricePerNight": 3600
+    },
+    {
+      "id": 26,
+      "name": "Valley Vista Hotel",
+      "location": "Mussoorie",
+      "pricePerNight": 2900
+    },
+    {
+      "id": 27,
+      "name": "Paradise View Hotel",
+      "location": "Mussoorie",
+      "pricePerNight": 3000
+    },
+    {
+      "id": 28,
+      "name": "Cloud Nine Residency",
+      "location": "Mussoorie",
+      "pricePerNight": 3100
+    },
+    {
+      "id": 29,
+      "name": "Himalayan Heights",
+      "location": "Mussoorie",
+      "pricePerNight": 3300
+    },
+    {
+      "id": 30,
+      "name": "Serene Stay",
+      "location": "Mussoorie",
+      "pricePerNight": 3150
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "user1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": 2,
+      "email": "user2@example.com",
+      "password": "password234"
+    },
+    {
+      "id": 3,
+      "email": "user3@example.com",
+      "password": "password345"
+    },
+    {
+      "id": 4,
+      "email": "user4@example.com",
+      "password": "password456"
+    },
+    {
+      "id": 5,
+      "email": "user5@example.com",
+      "password": "password567"
+    },
+    {
+      "id": 6,
+      "email": "user6@example.com",
+      "password": "password678"
+    },
+    {
+      "id": 7,
+      "email": "user7@example.com",
+      "password": "password789"
+    },
+    {
+      "id": 8,
+      "email": "user8@example.com",
+      "password": "password890"
+    },
+    {
+      "id": 9,
+      "email": "user9@example.com",
+      "password": "password901"
+    },
+    {
+      "id": 10,
+      "email": "user10@example.com",
+      "password": "password012"
+    },
+    {
+      "id": 11,
+      "email": "user11@example.com",
+      "password": "password123"
+    },
+    {
+      "id": 12,
+      "email": "user12@example.com",
+      "password": "password234"
+    },
+    {
+      "id": 13,
+      "email": "user13@example.com",
+      "password": "password345"
+    },
+    {
+      "id": 14,
+      "email": "user14@example.com",
+      "password": "password456"
+    },
+    {
+      "id": 15,
+      "email": "user15@example.com",
+      "password": "password567"
+    },
+    {
+      "id": 16,
+      "email": "user16@example.com",
+      "password": "password678"
+    },
+    {
+      "id": 17,
+      "email": "user17@example.com",
+      "password": "password789"
+    },
+    {
+      "id": 18,
+      "email": "user18@example.com",
+      "password": "password890"
+    },
+    {
+      "id": 19,
+      "email": "user19@example.com",
+      "password": "password901"
+    },
+    {
+      "id": 20,
+      "email": "user20@example.com",
+      "password": "password012"
+    }
+  ]
+}
