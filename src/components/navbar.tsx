@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 import { Button } from "./ui/button";
-import { HouseIcon } from "lucide-react";
+import { House } from "lucide-react";
 
 export const Navbar = () => {
   return (
@@ -10,7 +10,7 @@ export const Navbar = () => {
       </Link>
       <Link to="/">
         <Button variant="secondary" size="sm">
-          <HouseIcon size={4} />
+          <House size={2} />
           Home
         </Button>
       </Link>
