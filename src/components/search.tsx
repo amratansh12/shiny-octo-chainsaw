@@ -1,11 +1,11 @@
 import { useState } from "react";
 import axios from "axios";
-import { Link } from "react-router";
-import { MapPin, SearchIcon } from "lucide-react";
+import { SearchIcon } from "lucide-react";
 
 // Components
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
+import { HotelCard } from "./hotel-card";
 
 type Hotel = {
   id: number;
@@ -34,11 +34,11 @@ export const Search = () => {
 
   return (
     <div className="px-4 md:px-16 py-16">
-      <div className="max-w-2xl md:mx-auto">
+      <div className="max-w-2xl mx-auto">
         <h1 className="text-2xl font-semibold">Search Hotels</h1>
         <div className="flex items-center justify-center mt-4">
           <Input
-            placeholder="Hotels in Mussoorie, Nainital..."
+            placeholder="Hotels in Manali, Goa..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             className="rounded-r-none"
@@ -52,26 +52,7 @@ export const Search = () => {
       {/* Hotels listings */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full mt-8">
         {hotels.map((hotel, index) => (
-          <div
-            className="flex flex-col gap-2 bg-accent p-4 rounded-md shadow-sm relative"
-            key={index}
-          >
-            <h2 className="font-medium text-xl">{hotel.name}</h2>
-            <div className="flex items-center justify-center w-fit">
-              <MapPin size={20} className="text-rose-400 mr-1" />
-              <p>{hotel.location}</p>
-            </div>
-            <div className="flex items-center justify-center gap-2">
-              <Link className="flex-1" to={`/hotel/${hotel.id}`}>
-                <Button className="w-full" size="sm">
-                  Book now
-                </Button>
-              </Link>
-              <p className="bg-primary-foreground border w-fit px-2 py-1 rounded-md">
-                Rs. {hotel.pricePerNight} per night per adult
-              </p>
-            </div>
-          </div>
+          <HotelCard hotel={hotel} index={index} />
         ))}
       </div>
     </div>
